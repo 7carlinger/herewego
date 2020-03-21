@@ -1,0 +1,46 @@
+.container {
+    padding: 60px;
+    font-family: 'Baloo 2', cursive;
+    max-width: 100%;
+  }
+  
+.card {
+    border-radius: 5px;
+    box-shadow: 0 0 5px #333;
+    height: 550px;
+    width: 350px;
+}
+
+.header-img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.card-content{ 
+    padding: 25px;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 20px;
+
+}
+
+.footer {
+    padding: 10px;
+}
+
+.footer-link img {
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 20px;
+} 
+
+.title {
+    margin-top: 0;
+    font-size: 30px;
+    text-align: center;
+}
+

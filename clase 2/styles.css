@@ -1,0 +1,30 @@
+h1 {
+    text-emphasis-color: grey;
+    color: aliceblue;
+    text-align: left;
+    text-shadow: black;
+    font-size: 35px;
+    font-weight: 900;
+    font-feature-settings: "blwf";
+}
+h2 {
+    text-emphasis-color: grey;
+    color: rgb(3, 243, 223);
+    text-transform: capitalize;
+    text-align: left;
+    text-shadow: black;
+    font-feature-settings: "blwf";
+}
+.primerp {
+    color: aliceblue;
+    text-shadow: black;
+    font-size: 20px;
+}
+.segundop {
+    color: aliceblue;
+    text-shadow: aliceblue;
+    font-size: 20px;
+}
+.pie {
+    color: wheat
+}

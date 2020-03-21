@@ -1,0 +1,54 @@
+.section-first {
+    background-color: lightcoral;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.section-second {
+    background-color: darkorange;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.section-third {
+    background-color: forestgreen;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.section-fourth {
+    background-color: mediumaquamarine;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.section-fifth {
+    background-color: mediumvioletred;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.section-sixth {
+    background-color: lightslategray;
+    border-style: groove;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 25px;
+}
+.container {
+    width: 900px;
+    text-align: center;
+    border-left: 5px solid #ffffff
+    padding-left: 5px;
+}
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: underline;
+      
+}    
