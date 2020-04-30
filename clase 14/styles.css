@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+  }
+  
+  div#background {
+    height: 700px;
+    width: 100%;
+    background-image: url('wood-591631_1920.jpg');
+    padding-top: 20px;
+  }
+  
+  div#gallery {
+    width: 900px;
+    margin: auto;
+  }
+    
+  #background img {
+    height: 150px;
+    margin: 0px;
+  }
+  
+  #background figure {
+    float: left;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    padding-bottom: 25                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        px;
+    box-shadow: 1px 2px 3px black;
+    /*atencion es la animacion*/
+    transition: transform 0.2s linear;
+  }
+  
+  figure.pic1 {
+    /*transform : rotate(-10deg);*/
+    transform: rotate(-15deg);
+    z-index: 1;
+  }
+  
+  figure.pic2 {
+    transform : rotate(15deg);
+    z-index: 2;
+  }
+  
+  figure.pic3 {
+    transform : rotate(-25deg);
+    z-index: 1;
+  }
+  
+  figure.pic4 {
+    transform : rotate(5deg);
+    z-index:1;
+  }
+  
+  figure.pic5 {
+    transform : rotate(5deg);
+    z-index:1;
+  }
+  
+  figure.pic6 {
+    transform : rotate(-8deg);
+    z-index:1;
+  }
+
+  #background figure:hover {
+    box-shadow: 5px 10px 100px black;
+    transform: rotate(0) scale(1.2) translate(0, 20px) !important;
+    z-index: 20;
+}
+  

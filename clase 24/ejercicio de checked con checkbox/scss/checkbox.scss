@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.why {
+    width: 80%;
+    margin: auto;
+}
+
+#menu {
+    ul {
+       list-style: none;
+       margin: 0px;
+       padding: 0px;
+       position: fixed;
+       top: 0;
+       left: -50%;
+       background: #000;
+       opacity: 70%;
+       width: 50%;
+       height: 100vh;
+       padding-top: 60px;
+       z-index: 100;
+       transition: all .5s;
+       a {
+           color: #fff;
+           text-decoration: none;
+           display: block;
+           line-height: 70px;
+           padding: 0 15px;
+           border-bottom: 1px solid rgba(#fff, .2);           
+       }
+
+    
+    }
+}
+
+#mostrar-menu { 
+    display: none;
+    + label {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        line-height: 70px;
+        background: #222;
+        color: lightyellow;
+        padding: 0 15px;
+        cursor: pointer;
+        z-index: 150;
+    }
+    &:checked ~ ul {
+        left: 0px;
+    }
+}

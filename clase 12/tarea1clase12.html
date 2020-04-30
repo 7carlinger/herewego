@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea1c12</title>
+    <link rel="stylesheet" href="styletarea1clase12.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+</head>
+<body class="background">
+    <div class="bigcard">
+        <h1>SHIPPING</h1>
+        <ul class="banner-options">
+            <li><a href="linkshoppingbag">Shopping Bag</a></li>
+            <li><a href="linkcheckout">Checkout</a></li>
+            <li><a href="linkconfirmation"></a></li>
+        </ul>
+        <span class="icon">
+                <!--aca poner el icono-->
+        </span>
+
+        <div class="leftcard">
+            <form action="personalinfo">
+                <h2><strong>Personal information</strong></h2>
+                <label for="Firstname">First Name</label>
+                <input type="text" name="Firstname" placeholder="Adrien">
+                <label for="Lastname">Last Name</label>
+                <input type="text" name="Lastname" placeholder="Gervaix">
+                <label for="emailadress">Email Adress</label>
+                <input type="text" name="email" placeholder="adrien.gervaix@gmail.com">
+                <label for="Street">Street</label>
+                <input type="text" name="street" placeholder="284, Place de la bourse">
+                <label for="City">City</label>
+                <input type="text" name="City" placeholder="Lille">
+                <label for="Country">Country</label>
+                <input type="text" name="Country" placeholder="France">
+                <label for="Phonenumber">Phone number</label>
+                <div class="phoneblock">
+                    <input type="tel" name="Telefono" placeholder="612345678">
+                    <span class="input-group-addon">+33</span>
+                </div>
+            </form>
+        </div>
+    
+        <div class="rightcard top">
+            <h2>Delivery</h2>
+            <form action="deliverychoice">
+                <div class="container">
+                    <div class="0$">
+                      <button name="0$" type="button">
+                        <span class="0$">0$</span><br>
+                        <span>3-4 weeks</span>
+                      </button>
+                    </div>
+                    <div class="5$">
+                       <button name="5$$" type="button">
+                         <span class="5$">0$</span><br>
+                         <span>2-5 days</span>
+                       </button>
+                    </div>
+                    <span>Estimated delivery date August 4th.</span>
+                    <span>Every package has a traking number</span>
+                    <div class="rightcard bottom">
+                        <form action="confirmorder">
+                            <div class="confirmbutton">
+                                <input type="checkbox" name="subsc" placeholder="Subscribe to our newsletter">
+                                <input type="checkbox" name="createaccount" placeholder="Create an account">
+                                    <div class="confirmbutton">
+                                        <button class="confirm-order">
+                                            <span>Confirm my confirm-order</span>
+                                        </button>
+                                    </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+</body>
+
+
+
+
+</html>

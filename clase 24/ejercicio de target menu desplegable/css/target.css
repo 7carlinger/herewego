@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px; }
+
+h1 {
+  text-align: center; }
+
+h2 {
+  font-size: 1.1em;
+  margin-top: 2em; }
+
+.why {
+  width: 80%;
+  margin: auto; }
+
+main {
+  width: 80%;
+  margin: auto; }
+
+.acordeon a {
+  text-decoration: none;
+  display: block;
+  background: #ddd;
+  line-height: 30px;
+  padding: 0 1em;
+  color: steelblue;
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc; }
+
+.acordeon p {
+  padding: 1em;
+  margin: 0px;
+  display: none; }
+  .acordeon p:target {
+    display: block; }

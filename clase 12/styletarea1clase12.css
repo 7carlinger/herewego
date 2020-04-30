@@ -1,0 +1,55 @@
+.background {
+    background-color: rgb(150, 77, 233);
+    display: block;
+    margin: auto;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bigcard {
+    display: flex;
+    width: 800px;
+    background-color: white;
+    height: 500px;
+    border-radius: 5px;
+    padding: 20px 20px 20px;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.banner-options {
+    list-style: none;
+    
+}
+.leftcard {
+    border-radius: 1px;
+    display: flex;
+    padding: 10px;
+    position: relative;
+    background-color: rgb(233, 233, 233);
+    margin: auto;
+    height: 90;
+    width: 280;
+    position: relative;
+
+
+}
+
+.rightcard {
+
+}
+/*
+roboto regular 400
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+roboto black 900
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Roboto', sans-serif;

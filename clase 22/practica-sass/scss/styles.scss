@@ -1,0 +1,14 @@
+// Abstract
+@import "./abstract/variables";
+
+// Components 
+@import "./components/card";
+
+//layout
+@import "./layout/header";
+@import "./layout/footer";
+
+body {
+    background-color: $white;
+    margin: 0;
+}
